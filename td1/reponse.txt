@@ -1,0 +1,30 @@
+Exercice 8:
+
+L'ensemble vide est représenté par la taille qui est égale à 0.
+On ne s'occupe pas des valeurs dans le tableau
+
+On detecte une réallocation par le fait que size soit egale a capacity,
+ou que size*2 soint inferieure a capacity
+
+Exercice 9:
+
+
+Exercice 12:
+il faut ajouter set__free qui prend un set en parametre et qui libere
+l'espace occupe par son tableau.
+Non indiquée car depend du langage
+
+
+
+======TD2======
+
+une structure chainée vide est représentée par un pointeur vers une cellule
+sentinelle ou par un pointeur NULL
+
+
+
+
+Exercice 5
+
+la complexite est lineaire
+on peut l'ameliorer en enregistnant la queue dans la struct link
